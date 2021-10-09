@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Asap&display=swap" rel="stylesheet">
     <title>Bryans Portfolio</title>
 </head>
 <body>
@@ -15,25 +16,41 @@
         <div class="item">box-5</div>
     </div>
     -->
+
+    <!-- Navigation Bar-->
     <header>
         <a class="logo" href="/"><img src="assets\Images\logo.png" width="400px" alt="logo"></a>
         <nav>
-            <ul class="nav__links">
+            <ul class="navLinks">
                 <li><a href="#">Projects</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="#about">About</a></li>
             </ul>
         </nav>
         <a class="cta" href="#">Contact</a>
         <p class="menu cta">Menu</p>
     </header>
-    <div id="mobile__menu" class="overlay">
+    <div id="mobileMenu" class="overlay">
         <a class="close">&times;</a>
-        <div class="overlay__content">
+        <div class="overlayContent">
             <a href="#">Projects</a>
-            <a href="#">About</a>
+            <a href="#about">About</a>
         </div>
     </div>
     <script type="text/javascript" src="assets\mobile.js"></script>
+
+    <!-- About Me -->
+    <section id="about">
+        <h1>My name is Bryan Acosta, This is who I am.</h2>
+        <section class="aboutMe">
+        <img src="assets/Images/placeholder.png" alt="selfie">
+        <p> Welcome to my portfolio graders! Please make as many comments as you would like, I learn though mistakes very well
+            so thank you for pointing anything out! Im a current student at the UT Coding Bootcamp going though my second challenge,
+            I found coding through an old python book my step father gave me as a young kid, and ended up enjoying it so much I wanted
+            to make a career out of it! Im currently nineteen years old and love learning new things everyday.
+
+        </p>
+        </section>
+    </section>
     
 </body>
 </html>

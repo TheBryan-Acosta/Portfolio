@@ -3,42 +3,46 @@
     margin: 0;
     padding: 0;
   }
+
+  body{
+      background-color: rgb(20, 20, 20);
+  }
   
   header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 10px 10%;
-    background-color: #24252a;
+    background-color: #000000d5;
   }
   
   .logo {
     margin-right: auto;
   }
   
-  .nav__links {
+  .navLinks {
     list-style: none;
     display: flex;
   }
   
-  .nav__links a,
+  .navLinks a,
   .cta,
-  .overlay__content a {
+  .overlayContent a {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     color: #edf0f1;
     text-decoration: none;
   }
   
-  .nav__links li {
+  .navLinks li {
     padding: 0px 20px;
   }
   
-  .nav__links li a {
+  .navLinks li a {
     transition: all 0.3s ease 0s;
   }
   
-  .nav__links li a:hover {
+  .navLinks li a:hover {
     color: #ffd000;
   }
   
@@ -54,7 +58,7 @@
   }
   
   .cta:hover {
-    background-color: #ffd000;
+    background-color: #8fffd4;
   }
   
   /* Mobile Nav */
@@ -79,7 +83,7 @@
     width: 100%;
   }
   
-  .overlay__content {
+  .overlayContent {
     display: flex;
     height: 100%;
     flex-direction: column;
@@ -119,7 +123,7 @@
   }
   
   @media only screen and (max-width: 800px) {
-    .nav__links,
+    .navLinks,
     .cta {
       display: none;
     }
@@ -127,7 +131,32 @@
       display: initial;
     }
   }
+/*ABOUT ME PAGE STYLE*/
+.aboutMe{
+    justify-content: left;
+    display:flex
+}
+section h1{
+    font-family: 'Asap', sans-serif;
+    color: white;
+    text-align: left;
+    margin-left: 10%;
+    margin-right:30%;
+    padding: 40px;
+}
 
+section p{
+    color:white;
+    font-size:24px;
+    text-align: left;
+    padding: 20px;
+}
+
+.aboutMe img{
+  margin: auto;
+  margin-left: 3rem;
+
+}
 
 /*
 .wrapper{
