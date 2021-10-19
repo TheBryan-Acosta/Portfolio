@@ -2,35 +2,34 @@
 GitHub Link : https://github.com/TheBryan-Acosta/Portfolio
 GitPages Link : https://thebryan-acosta.github.io/Portfolio/
 ## Description
-Challenge 01 Due September 26, This weeks challenge tasked us to update a clients website to meet accessibility standards,
-in addition with cleaning and making the code more efficient.
-
+Challenge 02  This weeks challenge tasked us to create a personal portfolio containing our porjects/challenges, an about me section, and a contact section.
 ### What was done
-HTML - I started out by replacing the div tags with proper semantics, header for the header, main for the bulk content of the page, aside for the
-benefits side panel, and footer for the footer.
-Added section semantics for main and aside.
-I had a chance to clean the code up by adding comments to seperate what each section was and formatting.
-I caught a couple mistakes by the prev "Dev" forgetting the id for the first section in main.
-I also made the p tags content easier to read by not having it all in one line.
-Added the title of the website to display as Horiseon.
-Gave alt tags to the images.
+HTML - Mainly structure of the website, navbar, aboutme, projects, and contact.
 
-CSS - I removed the unnecessary classes given to the sections and other tags and instead targeted the sections
-by the root class, example (.content section and .benefits section) for sections that had the same styling.
-I reordered the css elements to properly match the content of the page top to bottom.
-Assigned variables for repeated attribute values, mainly white and blue.
+CSS - Here I took my time trying to make the website as clean as possible, I wanted to go for a greyscale theme, just to bring more attention to functionality
+with the nav bar for the project section, pseudos to make the website more interactive, and mobile functionality. Mainly I was just playing around. I also dont really
+have a good cover photo, so I just included a picture of a cool face for now. Also the about me is just lorem for now aswell.
+
+The project section I spent a good while doing, but im pretty happy it turned out well, what was difficult was trying to put content above the img, but
+putting content below the image would be cleaner anyways so I ended up doing that.
  
+for the footer I had nothing left to add, but the website looked akaward without it so I added a cool image to cover up the missing content.
+
+The nav bar was pretty easy though, I followed a guide I thought looked cool, plus the JS part of it was simple. very good tutorial in my opinion.
+Taught me good styling methods too.
+
 ## Images
-![HoriComp](assets\images\CompletedHori.png?raw=true "HotiCompleted")
+![PortfolioWeb](Portfolio\assets\Images\portfoliodone.png?raw=true)
 ## Installation
-Developed with HTML, CSS through Visual Studio Code.
+Developed with HTML, CSS, js through Visual Studio Code.
 
 ## Usage
-Example of a website with updated accessibility standards.
+Personal portfolio to house school work.
 
 
 ## Credits
-University of Texas Coding Bootcamp - Module 1
+University of Texas Coding Bootcamp module 1-3
+https://www.youtube.com/watch?v=PwWHL3RyQgk&ab_channel=Skillthrive - Nav Bar help
 
 ## License
 
