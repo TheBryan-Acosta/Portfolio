@@ -2,7 +2,7 @@
 GitHub Link : https://github.com/TheBryan-Acosta/Portfolio
 GitPages Link : https://thebryan-acosta.github.io/Portfolio/
 ## Description
-Challenge 02  This weeks challenge tasked us to create a personal portfolio containing our porjects/challenges, an about me section, and a contact section.
+Challenge 02  This weeks challenge tasked us to create a personal portfolio containing our projects/challenges, an about me section, and a contact section.
 ### What was done
 HTML - Mainly structure of the website, navbar, aboutme, projects, and contact.
 
@@ -19,7 +19,7 @@ The nav bar was pretty easy though, I followed a guide I thought looked cool, pl
 Taught me good styling methods too.
 
 ## Images
-![PortfolioWeb](Portfolio\assets\Images\portfoliodone.png?raw=true)
+![PortfolioWeb](assets/Images/portfoliodone.png?raw=true "portfolio")
 ## Installation
 Developed with HTML, CSS, js through Visual Studio Code.
 
@@ -29,6 +29,7 @@ Personal portfolio to house school work.
 
 ## Credits
 University of Texas Coding Bootcamp module 1-3
+
 https://www.youtube.com/watch?v=PwWHL3RyQgk&ab_channel=Skillthrive - Nav Bar help
 
 ## License
