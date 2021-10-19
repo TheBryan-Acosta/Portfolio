@@ -51,7 +51,7 @@
     margin-left: 20px;
     padding: 9px 25px;
     color:black;
-    background-color: #bdbdbd;
+    background-color: #c9c9c9;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -59,7 +59,7 @@
   }
   
   .cta:hover {
-    background-color: #d4d4d4;
+    background-color: #00ffea;
   }
   
   /* Mobile Nav */
@@ -135,7 +135,8 @@
 /*ABOUT ME PAGE STYLE*/
 .aboutMe{
     justify-content: left;
-    display:flex
+    display:flex;
+    flex-wrap: wrap;
 }
 section h1{
     font-family: 'Asap', sans-serif;
@@ -151,11 +152,14 @@ section p{
     font-size:24px;
     text-align: left;
     padding: 20px;
+    margin: 0 10% 0 10%;
+    
 }
 
 .aboutMe img{
   margin: auto;
-  margin-left: 3rem;
+  border-radius: 1000000px;
+  
 
 }
 
@@ -173,6 +177,7 @@ section p{
     display: flex;
     overflow-x: auto;
     margin: 0px 50px 0px 50px;
+    border-radius: 10px;
 }
 
 .wrapper::-webkit-scrollbar{
@@ -194,24 +199,89 @@ section p{
 
 .wrapper .item{
     margin: 10px;
-    box-shadow: inset 0 0 0 1000px #929292;
+    background-color: #929292;
     border: 3px solid #464646;
     font-family: 'Asap', sans-serif;
     text-align: center;
+    border-radius: 10px;
 }
 
 .wrapper .item img{
-  padding:5px;
+  padding: 5px;
   display: block;
   margin:auto;
+  border-radius: 10px;
 }
 
 .wrapper .item:hover{
-  box-shadow: inset 0 0 0 1000px #cacaca;
   transition: all 0.6s ease 0s;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.459);
+  background-color: #adadad;
  
 }
 
 .wrapper h2 {
   font-size: 20px;
+}
+
+.contactheader{
+  font-family: 'Asap', sans-serif;
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  
+}
+
+.wrappercontact{
+  border: 1px solid rgb(92, 92, 92);
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.322);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 40% 0px 40%;
+  border-radius: 10px;
+}
+
+.wrappercontact .item{
+    height: 100px;
+    background-color: #999999;
+    border: 3px solid #696969;
+    font-family: 'Asap', sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.322);
+    margin: auto;
+}
+
+.wrappercontact .item img{
+  margin: 10px;
+}
+
+.wrappercontact .item:hover{
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.459);
+  background-color: #b6b6b6;
+  transition: all 0.6s ease 0s;
+ 
+}
+
+/*footer*/
+
+footer{
+  margin-top: 50px;
+  padding: 20px;
+  background-color: black;
+}
+
+footer img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:10px;
+  border-radius: 10000px;
+}
+
+footer img:hover{
+  width:1000px;
 }
